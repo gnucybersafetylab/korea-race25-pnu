@@ -190,6 +190,15 @@
         </div>
     </footer>
 
+    <!-- Poster Popup Modal -->
+    <div id="posterModal" class="poster-modal">
+        <div class="poster-modal-overlay"></div>
+        <div class="poster-modal-content">
+            <button class="poster-modal-close">&times;</button>
+            <img src="img/poster-race26-pnu.jpeg" alt="2026 RoboRacer PNU-HYUNSONG CHAMPIONSHIP Poster" class="poster-modal-image">
+        </div>
+    </div>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -198,6 +207,31 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
+
+    <!-- Poster Popup Script -->
+    <script>
+        $(document).ready(function() {
+            // Show popup when page loads
+            $('#posterModal').fadeIn(300);
+            
+            // Close popup when clicking the X button
+            $('.poster-modal-close').click(function() {
+                $('#posterModal').fadeOut(300);
+            });
+            
+            // Close popup when clicking the overlay
+            $('.poster-modal-overlay').click(function() {
+                $('#posterModal').fadeOut(300);
+            });
+            
+            // Close popup with ESC key
+            $(document).keyup(function(e) {
+                if (e.key === "Escape") {
+                    $('#posterModal').fadeOut(300);
+                }
+            });
+        });
+    </script>
 
 </body>
 
