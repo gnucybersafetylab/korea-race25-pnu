@@ -94,26 +94,178 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h2>About RoboRacer Autonomous Racing</h2>
-                <p>RoboRacer Autonomous Racing is a competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The competition brings together teams from around the world to compete in autonomous racing using 1:10 scaled race cars.</p>
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
                 
-                <h2>RoboRacer Korea</h2>
-                <p><strong>RoboRacer Korea</strong> is the official organization that promotes and organizes autonomous racing competitions in Korea. As part of the international RoboRacer community, RoboRacer Korea hosts official championship series events that bring together teams from universities, research institutions, and companies to compete in cutting-edge autonomous driving technology.</p>
-                
-                <h2>2026 RoboRacer PNU-HYUNSONG CHAMPIONSHIP</h2>
-                <p>The <strong>2026 RoboRacer PNU-HYUNSONG CHAMPIONSHIP</strong> is an <strong>official RoboRacer Korea championship series event</strong>. This championship is co-hosted by RoboRacer Korea, Pusan National University (PNU) RISE Future Mobility UIC, and the National University Development Project Future Mobility Specialization Program. This championship will feature 30 teams from domestic and international institutions competing in autonomous racing.</p>
-                
-                <p>As part of the official RoboRacer Korea Race Series, this championship follows the international standards and regulations set by the RoboRacer community, ensuring fair competition and high-quality autonomous racing experiences for all participants.</p>
-                
-                <h2>Competition Format</h2>
-                <p>Teams participating in the championship will build a 1:10 scaled autonomous race car according to given specifications and write software for it to fulfill the competition objectives: <strong>Don't crash and minimize laptime</strong>.</p>
-                
-                <p>The competition consists of qualification sessions and knockout racing phases. Teams must demonstrate their ability to complete laps without colliding with track boundaries, then compete in head-to-head racing matches.</p>
-                
-                <h2>Organizers</h2>
-                <p><strong>Organizers & Hosts:</strong> RoboRacer Korea, Pusan National University RISE Future Mobility UIC, Pusan National University National University Development Project Future Mobility Specialization Program</p>
-                <p><strong>Sponsors:</strong> Hyunsong Education & Culture Foundation, Busan Shared University Future Mobility Major</p>
+                <!-- About RoboRacer Section -->
+                <section class="about-section">
+                    <div class="section-card">
+                        <div class="section-icon">
+                            <i class="fa fa-flag-checkered"></i>
+                        </div>
+                        <h2 class="section-title">About RoboRacer Autonomous Racing</h2>
+                        <p class="section-text">RoboRacer Autonomous Racing is a competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The competition brings together teams from around the world to compete in autonomous racing using 1:10 scaled race cars.</p>
+                    </div>
+                </section>
+
+                <!-- RoboRacer Korea Section -->
+                <section class="about-section">
+                    <div class="section-card">
+                        <div class="section-icon">
+                            <i class="fa fa-globe"></i>
+                        </div>
+                        <h2 class="section-title">RoboRacer Korea</h2>
+                        <p class="section-text"><strong>RoboRacer Korea</strong> is the official organization that promotes and organizes autonomous racing competitions in Korea. As part of the international RoboRacer community, RoboRacer Korea hosts official championship series events that bring together teams from universities, research institutions, and companies to compete in cutting-edge autonomous driving technology.</p>
+                    </div>
+                </section>
+
+                <!-- Championship Section -->
+                <section class="about-section">
+                    <div class="section-card highlight-card">
+                        <div class="section-icon highlight-icon">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <h2 class="section-title">2026 RoboRacer PNU-HYUNSONG CHAMPIONSHIP</h2>
+                        <p class="section-text">The <strong>2026 RoboRacer PNU-HYUNSONG CHAMPIONSHIP</strong> is an <strong>official RoboRacer Korea championship series event</strong>. This championship is co-hosted by RoboRacer Korea, Pusan National University (PNU) RISE Future Mobility UIC, and the National University Development Project Future Mobility Specialization Program. This championship will feature 30 teams from domestic and international institutions competing in autonomous racing.</p>
+                        <p class="section-text">As part of the official RoboRacer Korea Race Series, this championship follows the international standards and regulations set by the RoboRacer community, ensuring fair competition and high-quality autonomous racing experiences for all participants.</p>
+                    </div>
+                </section>
+
+                <!-- Competition Format Section -->
+                <section class="about-section">
+                    <div class="section-card">
+                        <div class="section-icon">
+                            <i class="fa fa-cogs"></i>
+                        </div>
+                        <h2 class="section-title">Competition Format</h2>
+                        <p class="section-text">Teams participating in the championship will build a 1:10 scaled autonomous race car according to given specifications and write software for it to fulfill the competition objectives: <strong class="highlight-text">Don't crash and minimize laptime</strong>.</p>
+                        <p class="section-text">The competition consists of qualification sessions and knockout racing phases. Teams must demonstrate their ability to complete laps without colliding with track boundaries, then compete in head-to-head racing matches.</p>
+                    </div>
+                </section>
+
+                <!-- Organizers Section -->
+                <section class="about-section">
+                    <h2 class="section-title-main">
+                        <i class="fa fa-users"></i> Organizers
+                    </h2>
+
+                <style>
+                    .organizers-grid-container {
+                        display: grid !important;
+                        grid-template-columns: repeat(4, 1fr) !important;
+                        gap: 30px !important;
+                        width: 100% !important;
+                        box-sizing: border-box !important;
+                    }
+                    @media (max-width: 991px) and (min-width: 768px) {
+                        .organizers-grid-container {
+                            grid-template-columns: repeat(2, 1fr) !important;
+                            gap: 25px !important;
+                        }
+                    }
+                    @media (max-width: 767px) {
+                        .organizers-grid-container {
+                            grid-template-columns: 1fr !important;
+                            gap: 25px !important;
+                        }
+                    }
+                </style>
+
+                <div class="organizers-section" style="width: 100%; margin-top: 40px; margin-bottom: 40px;">
+                    <div class="organizers-grid-container">
+                        <div style="width: 100%; box-sizing: border-box;">
+                            <div class="organizer-card">
+                                <div class="organizer-photo">
+                                    <img src="img/prof_anh.jpg" alt="Seokyoung Ahn" class="organizer-img" style="width: 160px !important; height: 160px !important; min-width: 160px !important; min-height: 160px !important; max-width: 160px !important; max-height: 160px !important; object-fit: cover !important; border-radius: 0 !important; border: 3px solid #e8e8e8 !important; display: block !important; margin: 0 auto !important;">
+                                </div>
+                                <div class="organizer-info">
+                                    <h4 class="organizer-name">
+                                        <span class="organizer-name-en">Seokyoung Ahn</span>
+                                        <span class="organizer-name-kr">안석영</span>
+                                    </h4>
+                                    <p class="organizer-affiliation">부산대학교 기계공학부</p>
+                                    <p class="organizer-email">
+                                        <a href="mailto:sahn@pusan.ac.kr">sahn@pusan.ac.kr</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 100%; box-sizing: border-box;">
+                            <div class="organizer-card">
+                                <div class="organizer-photo">
+                                    <img src="img/prof_parkjong.jpg" alt="Jong Hyeok Park" class="organizer-img" style="width: 160px !important; height: 160px !important; min-width: 160px !important; min-height: 160px !important; max-width: 160px !important; max-height: 160px !important; object-fit: cover !important; border-radius: 0 !important; border: 3px solid #e8e8e8 !important; display: block !important; margin: 0 auto !important;">
+                                </div>
+                                <div class="organizer-info">
+                                    <h4 class="organizer-name">
+                                        <span class="organizer-name-en">Jong Hyeok Park</span>
+                                        <span class="organizer-name-kr">박종혁</span>
+                                    </h4>
+                                    <p class="organizer-affiliation">부산대학교 기계공학부</p>
+                                    <p class="organizer-email">
+                                        <a href="mailto:jhpark93@pusan.ac.kr">jhpark93@pusan.ac.kr</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 100%; box-sizing: border-box;">
+                            <div class="organizer-card">
+                                <div class="organizer-photo">
+                                    <img src="img/prof_kwon.png" alt="Chulhyun Kwon" class="organizer-img" style="width: 160px !important; height: 160px !important; min-width: 160px !important; min-height: 160px !important; max-width: 160px !important; max-height: 160px !important; object-fit: cover !important; border-radius: 0 !important; border: 3px solid #e8e8e8 !important; display: block !important; margin: 0 auto !important;">
+                                </div>
+                                <div class="organizer-info">
+                                    <h4 class="organizer-name">
+                                        <span class="organizer-name-en">Chulhyun Kwon</span>
+                                        <span class="organizer-name-kr">권철현</span>
+                                    </h4>
+                                    <p class="organizer-affiliation">UNIST 기계공학부</p>
+                                    <p class="organizer-email">
+                                        <a href="mailto:jhpark93@pusan.ac.kr">jhpark93@pusan.ac.kr</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 100%; box-sizing: border-box;">
+                            <div class="organizer-card">
+                                <div class="organizer-photo">
+                                    <img src="img/prof_kimjin.jpg" alt="Jin Hyun Kim" class="organizer-img" style="width: 160px !important; height: 160px !important; min-width: 160px !important; min-height: 160px !important; max-width: 160px !important; max-height: 160px !important; object-fit: cover !important; border-radius: 0 !important; border: 3px solid #e8e8e8 !important; display: block !important; margin: 0 auto !important;">
+                                </div>
+                                <div class="organizer-info">
+                                    <h4 class="organizer-name">
+                                        <span class="organizer-name-en">Jin Hyun Kim</span>
+                                        <span class="organizer-name-kr">김진현</span>
+                                    </h4>
+                                    <p class="organizer-affiliation">경상국립대학교 AI정보공학과</p>
+                                    <p class="organizer-email">
+                                        <a href="mailto:jin.kim@gnu.ac.kr">jin.kim@gnu.ac.kr</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Organizers & Hosts -->
+                    <div class="info-box hosts-box">
+                        <div class="info-box-header">
+                            <i class="fa fa-building"></i>
+                            <h3>Organizers & Hosts</h3>
+                        </div>
+                        <p>RoboRacer Korea, Pusan National University RISE Future Mobility UIC, Pusan National University National University Development Project Future Mobility Specialization Program</p>
+                    </div>
+
+                    <!-- Sponsors -->
+                    <div class="info-box sponsors-box">
+                        <div class="info-box-header">
+                            <i class="fa fa-handshake-o"></i>
+                            <h3>Sponsors</h3>
+                        </div>
+                        <p>Hyunsong Education & Culture Foundation, Busan Shared University Future Mobility Major</p>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
             </div>
         </div>
     </div>
